@@ -13,6 +13,10 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
 /* header */
 .header{
     padding: 40px 4%;
@@ -44,3 +48,43 @@ header nav ul li{
     padding: 0 20px;
     font-weight: 600;
 }
+
+/* UPPER SITE STYLING */
+
+section.upper-site{
+    padding: 40px 4%;
+}
+
+section.upper-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.upper-site h1{
+    font-size: 38px;
+}
+
+.upper-site span{
+    color: rgb(227, 148, 1);
+}
+
+.icons ul p{
+    display: inline-block;
+    align-items: center;
+}
+
+.icons li{
+    display: inline-block;
+    padding: 10px 10px 10px 0px;
+    transition: .2s;
+}
+
+.icons li:hover{
+    transform: scale(1.15);
+}
+
+div.icons img{
+    height: 30px;
+}
+
