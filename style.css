@@ -52,7 +52,7 @@ header nav ul li{
 /* UPPER SITE STYLING */
 
 section.upper-site{
-    padding: 40px 4%;
+    padding: 50px 4%;
 }
 
 section.upper-site .flex{
@@ -88,3 +88,35 @@ div.icons img{
     height: 30px;
 }
 
+.upper-site .img-upper-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:10px;
+    }
+}
+
+/* TECH STACKS STYLING */
+.tech-stack{
+    padding: 50px 4%;
+}
+
+.tech-stack .interface{
+    font-size: small;
+}
+
+.tech-stack .flex{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.tech-stack .tech-stack-box img{
+    height: 45px;
+}
