@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body{
     background-color: white;
     height: 100vh;
 }
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -105,10 +107,11 @@ div.icons img{
 /* TECH STACKS STYLING */
 .tech-stack{
     padding: 50px 4%;
+    justify-content: start;
 }
 
 .tech-stack .interface{
-    font-size: small;
+    font-size: 10px;
 }
 
 .tech-stack .flex{
@@ -118,5 +121,23 @@ div.icons img{
 }
 
 .tech-stack .tech-stack-box img{
-    height: 45px;
+    height: 40px;
+}
+
+/* ABOUT ME */
+section.about{
+    padding: 40px 4%;
+}
+
+section.about.flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.about .txt-about h1{
+    font-size: 20px;
+}
+
+.about .txt-about h2{
+    font-size: 30px;
 }
