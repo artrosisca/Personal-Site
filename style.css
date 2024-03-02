@@ -71,9 +71,8 @@ section.upper-site .flex{
     color: rgb(227, 148, 1);
 }
 
-.icons ul p{
-    display: inline-block;
-    align-items: center;
+.upper-site .icons ul{
+    padding-left: 0;
 }
 
 .icons li{
