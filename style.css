@@ -261,6 +261,12 @@ form .send-btn input:hover{
 
 /* FOOTER STYLING */
 
+.thick-line {
+    height: 3px; 
+    background-color: black;
+    border: none; 
+}
+
 footer{
     padding: 60px 4%;
 }
@@ -275,8 +281,8 @@ footer .line-footer p{
     size: 40px;
 }
 
-.thick-line {
-    height: 3px; 
-    background-color: black;
-    border: none; 
+.line-footer a{
+    text-decoration: none;
+    color: black;
 }
+
