@@ -134,7 +134,7 @@ section.about .flex{
 }
 
 .about .txt-about h1{
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 25px;
 }
 
@@ -257,4 +257,26 @@ form .send-btn input{
 
 form .send-btn input:hover{
     transform: scale(1.10);
+}
+
+/* FOOTER STYLING */
+
+footer{
+    padding: 60px 4%;
+}
+
+footer .flex{
+    justify-content: space-between !important;
+}
+
+footer .line-footer p{
+    color: aqua;
+    font-size: 22px;
+    size: 40px;
+}
+
+.thick-line {
+    height: 3px; 
+    background-color: black;
+    border: none; 
 }
